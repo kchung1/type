@@ -1,0 +1,126 @@
+/* Type */
+
+body {
+	background-color: hotpink;
+	color: black;
+	font-family: sans-serif;
+	line-height: .25;
+    font-size: 5em;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transition: 3s ease-in-out;
+}
+h1 {
+	position: absolute;
+	right: 0;
+	top: 1;
+	color: white;
+	transform: rotate(-90deg);
+	z-index: 1;
+	text-shadow: 1px 1px #f30171, 
+                2px 2px #f30171, 
+                3px 3px #f30171, 
+                4px 4px #f30171, 
+                5px 5px #f30171,
+                6px 6px #f30171, 
+                7px 7px #f30171,
+                8px 8px #f30171, 
+                9px 9px #f30171,
+                10px 10px #f30171, 
+                11px 11px #f30171,
+                12px 12px #f30171;
+    
+}
+h1:hover {
+	filter: blur(5px);
+	z-index: 0;
+}
+@keyframes slide {
+  from {background-color: hotpink;}
+  to {background-color: white;}
+}
+h2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 400px;
+	filter: blur(10px);
+	text-shadow: 1px 1px #f30171, 
+                2px 2px #f30171, 
+                3px 3px #f30171, 
+                4px 4px #f30171, 
+                5px 5px #f30171,
+                6px 6px #f30171, 
+                7px 7px #f30171,
+                8px 8px #f30171, 
+                9px 9px #f30171,
+                10px 10px #f30171, 
+                11px 11px #f30171,
+                12px 12px #f30171;
+}
+h2:hover {
+	z-index: 1;
+	filter: none;
+}
+h3 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 200px;
+	color: hotpink;
+	text-shadow: 1px 1px #f30171, 
+                2px 2px #f30171, 
+                3px 3px #f30171, 
+                4px 4px #f30171, 
+                5px 5px #f30171,
+                6px 6px #f30171, 
+                7px 7px #f30171,
+                8px 8px #f30171, 
+                9px 9px #f30171,
+                10px 10px #f30171, 
+                11px 11px #f30171,
+                12px 12px #f30171;
+}
+h3:hover {
+	z-index: 1;
+}
+p {
+	/*transform: rotate(-15deg);*/
+	color: white;
+	text-shadow: 1px 1px #f30171, 
+                2px 2px #f30171, 
+                3px 3px #f30171, 
+                4px 4px #f30171, 
+                5px 5px #f30171,
+                6px 6px #f30171, 
+                7px 7px #f30171,
+                8px 8px #f30171, 
+                9px 9px #f30171,
+                10px 10px #f30171, 
+                11px 11px #f30171,
+                12px 12px #f30171;
+    filter: blur(5px);
+}
+p:hover {
+	filter: invert(2);
+}
+.p1 {
+	transform: skew(20deg, 10deg);
+}
+.p2 {
+	transform: skew(-20deg, -10deg);
+}
+.p3 {
+	transform: skew(20deg, 10deg);
+}
+/*.new-color:hover {
+	filter: blur(5px);
+}*/
+.new-color {
+	color: hotpink;
+}
+.other-font {
+	font-family: serif;
+}
